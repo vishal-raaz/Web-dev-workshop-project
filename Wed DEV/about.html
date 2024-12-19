@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Tech Reviews</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(255, 255, 255);
+    }
+
+    #about-us {
+      background-color:#fdfcfc;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0;
+    }
+
+    .feature {
+      flex: 1;
+      margin: 0 10px;
+      padding: 20px;
+      background-color: #f8f8fc;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon {
+      font-size: 40px;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <section id="about-us">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>
+        Welcome to <strong>Tech Reviews Hub </strong> – your go-to destination for honest, unbiased, and up-to-date reviews on the latest tech products. From gadgets to software and apps, we aim to make your tech-buying decisions smarter and more informed. 
+      </p>
+      <p><strong>Developed by Vishal & Satyam 😄</strong></p>
+      <div class="features">
+        <div class="feature">
+          <i class="icon fas fa-users"></i>
+          <h2>Community Driven</h2>
+          <p>Powered by user submissions, we bring you real-world insights and experiences.</p>
+        </div>
+        <div class="feature">
+          <i class="icon fas fa-star"></i>
+          <h2>Expert Analysis</h2>
+          <p>Our in-house experts test and analyze to provide comprehensive reviews.</p>
+        </div>
+        <div class="feature">
+          <i class="icon fas fa-heart"></i>
+          <h2>Passion for Tech</h2>
+          <p>We are a team of tech enthusiasts passionate about innovation and quality.</p>
+        </div>
+      </div>
+      <button id="learn-more">Learn More</button>
+    </div>
+  </section>
+  <script>
+    document.getElementById("learn-more").addEventListener("click", () => {
+      alert("Thank you for your interest! More features are coming soon.");
+    });
+  </script>
+</body>
+</html>
